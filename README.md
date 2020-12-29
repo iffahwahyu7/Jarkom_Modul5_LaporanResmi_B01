@@ -7,15 +7,22 @@ Setelah kalian mempelajari semua modul yang telah diberikan, Bibah ingin meminta
 ![alt text](img/topo.jpg)
  
 Keterangan : 
-
- SURABAYA diberikan IP TUNTAP 
- MALANG merupakan DNS Server diberikan IP DMZ 
- MOJOKERTO merupakan DHCP Server diberikan IP DMZ 
- MADIUN dan PROBOLINGGO merupakan WEB Server 
- Setiap Server diberikan memory sebesar 128M 
- Client dan Router diberikan memori sebesar 96M 
- Jumlah host pada subnet SIDOARJO 200 Host 
- Jumlah host pada subnet GRESIK 210 Host
+​
+SURABAYA diberikan IP TUNTAP
+​
+MALANG merupakan DNS Server diberikan IP DMZ 
+​
+MOJOKERTO merupakan DHCP Server diberikan IP DMZ 
+​
+MADIUN dan PROBOLINGGO merupakan WEB Server 
+​
+Setiap Server diberikan memory sebesar 128M 
+​
+Client dan Router diberikan memori sebesar 96M 
+​
+Jumlah host pada subnet SIDOARJO 200 Host 
+​
+Jumlah host pada subnet GRESIK 210 Host
 
 ```
 # Switch
