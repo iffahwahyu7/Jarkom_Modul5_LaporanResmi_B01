@@ -8,14 +8,14 @@ Setelah kalian mempelajari semua modul yang telah diberikan, Bibah ingin meminta
  
 Keterangan : 
 
-SURABAYA diberikan IP TUNTAP 
-MALANG merupakan DNS Server diberikan IP DMZ 
-MOJOKERTO merupakan DHCP Server diberikan IP DMZ 
-MADIUN dan PROBOLINGGO merupakan WEB Server 
-Setiap Server diberikan memory sebesar 128M 
-Client dan Router diberikan memori sebesar 96M 
-Jumlah host pada subnet SIDOARJO 200 Host 
-Jumlah host pada subnet GRESIK 210 Host
+ SURABAYA diberikan IP TUNTAP 
+ MALANG merupakan DNS Server diberikan IP DMZ 
+ MOJOKERTO merupakan DHCP Server diberikan IP DMZ 
+ MADIUN dan PROBOLINGGO merupakan WEB Server 
+ Setiap Server diberikan memory sebesar 128M 
+ Client dan Router diberikan memori sebesar 96M 
+ Jumlah host pada subnet SIDOARJO 200 Host 
+ Jumlah host pada subnet GRESIK 210 Host
 
 ```
 # Switch
@@ -225,12 +225,24 @@ install dhcp relay
 apt-get install isc-dhcp-relay
 ```
 ```
+10.151.83.19
+```
+```
+eth0
+```
+```
 service isc-dhcp-relay restart
 ```
 
 BATU
 ```
 install dhcp relay
+```
+```
+10.151.83.19
+```
+```
+eth1
 ```
 ```
 apt-get install isc-dhcp-relay
